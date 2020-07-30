@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.header-content{
+    height: 50px;
+    padding: 4px 16px;
+    font-size: 1.25rem;
+    border-radius: 0;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.1),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12);
+    display: flex;
+    position: relative;
+    background-color: #DEB887;
+    color: white;
+    align-items: center;
+}
+.header-content input{
+    height: 38px;
+    padding-left: 10px;
+    width: 100%;
+    border:1px solid #eaeaea;
+    outline:none;
+    border-radius: 10px;
+
+}
+.header-content input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+.input-field-place{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    width: 85%;
+    min-height: 38px;
+}
+.link{
+    width: 200px;
+    height: 35px;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    -webkit-transition-property:color, background;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-timing-function: linear, ease-in;
+    align-items: center;
+    padding-left: 10px;
+
+
+}
+.link:hover{
+    cursor: pointer;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-timing-function: linear, ease-in;
+    background-color: #F5DEB3;
+    border-radius: 3px;
+    animation-name: in;
+
+}
+
+.git-pic{
+    height: 16px;
+    width: 18px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    margin-right: 3px;
+}
