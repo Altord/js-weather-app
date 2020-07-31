@@ -1,4 +1,3 @@
-import Header_Contents from "../src/js/components/header"
 import Full_Content from "../src/js/components/body"
 import React from "react";
 import ReactDOM from "react-dom";

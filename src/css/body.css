@@ -1,8 +1,50 @@
 .container{
     margin: 100px auto auto auto;
     max-width: 600px;
+
+
     border-radius: 4px;
     background-color: white;
-    color: black;
+    color: #b1936c;
     box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+    font-size: 20px;
+}
+.top-bar{
+
+    margin-left: 64px;
+    color: #b1936c;
+    padding: 12px;
+
+}
+.main-information{
+    margin-left: 64px;
+    padding: 20px;
+    font-size: 5rem;
+}
+
+.area{
+    font-size: 2rem;
+}
+.accessory-box{
+    padding-bottom: 24px;
+    margin-left: 64px;
+}
+.accessory1{
+    float:left;
+
+}
+.accessory2{
+    margin-left: 70%;
+
+}
+
+.sun-state{
+    margin-left: 120px;
+}
+
+
+.accessory-img{
+    width: 20px;
+    height: 20px;
+    filter: invert(59%) sepia(53%) saturate(249%) hue-rotate(354deg) brightness(91%) contrast(88%);
 }
