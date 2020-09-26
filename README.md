@@ -7,4 +7,5 @@ Future possible updates:
 * Api that fetches vector free images based on weather or goes through a list that fetches saved images eg. cloudy = 1, weatherList = [0,cloudy imported from external png,2,3] etc.
 * Multi day forecast, maps for the region etc.
 
-This can be improved in many ways and I plan to do so
+Access here:
+https://altord.github.io/js-weather-app/
